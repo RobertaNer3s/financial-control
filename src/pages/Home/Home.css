@@ -1,46 +1,102 @@
 .home-container {
-    max-width: 800px;
-    margin: 0 auto;
-    padding: 20px 20px 0 20px;
-    text-align: center;
-    min-height: 90vh;
-  }
-  
-  h1 {
-    margin-bottom: 20px;
-    color: #2c3e50;
-  }
-  
-  .intro-section, .variable-income-section {
-    margin-bottom: 20px;
-    text-align: left;
-  }
-  
-  h2 {
-    color: #34495e;
-  }
-  
-  p {
-    color: #7f8c8d;
-    line-height: 1.6;
-  }
-  
-  .login-prompt {
-    margin-top: 30px;
-  }
-  
-  .login-button {
-    display: inline-block;
-    padding: 10px 20px;
-    font-size: 1em;
-    color: white;
-    background-color: #3498db;
-    border: none;
-    border-radius: 5px;
-    text-decoration: none;
-    cursor: pointer;
-  }
-  
-  .login-button:hover {
-    background-color: #2980b9;
-  }
+  max-width: 800px;
+  margin: 0 auto;
+  padding: 20px 20px 0 20px;
+  text-align: center;
+  min-height: 90vh;
+}
+
+.container-img {
+  position: relative;
+  width: 100%;
+}
+
+.overlay-text {
+  position: absolute;
+  top: 250vh; 
+  left: 50%;
+  transform: translateX(-50%);
+  text-align: center;
+  padding: 10px 20px;
+  border-radius: 8px;
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+}
+
+.overlay-text .title {
+  font-size: 24px;
+  margin-bottom: 5px;
+}
+
+.overlay-text .subtitle {
+  font-size: 14px;
+  color: #666;
+}
+
+.home-invest {
+  display: flex;
+  width: 100%;
+}
+
+.container-img {
+  position: relative;
+  width: 100%;
+}
+
+.intro-section,
+.variable-income-section {
+  margin-bottom: 20px;
+  text-align: left;
+}
+
+.card {
+  background-color: #ffffff;
+  border: 1px solid #e0e0e0;
+  border-radius: 8px;
+  padding: 20px;
+  margin-bottom: 20px;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+}
+
+.item-text {
+  font-size: 16px;
+  line-height: 1.6;
+  color: black;
+  display: flex;
+  justify-content: center;
+}
+
+.img-home {
+  max-width: 100%;
+  border-radius: 8px;
+}
+
+title{
+  color: white;
+}
+
+.subtitle {
+  color: white;
+  line-height: 1.6;
+  font-style: italic;
+}
+
+.login-prompt {
+  margin-top: 30px;
+}
+
+.login-button, .contacts-button {
+  display: inline-block;
+  padding: 10px 20px;
+  font-size: 1em;
+  color: white;
+  background-color: #3498db;
+  border: none;
+  border-radius: 5px;
+  text-decoration: none;
+  cursor: pointer;
+  margin-top: 16px;
+}
+
+.login-button:hover {
+  background-color: #2980b9;
+}
