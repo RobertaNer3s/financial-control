@@ -41,8 +41,7 @@
   .nav-links a:hover {
     color: #ddd;
   }
-  
-  /* Media Query para dispositivos móveis */
+
   @media (max-width: 768px) {
     .header {
       justify-content: center;
